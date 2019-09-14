@@ -16,8 +16,10 @@ Transient
 
 Scoped
 在同一個 Requset 中，不論是在哪邊被注入，都是同樣的實例。
+
 ->適合資料庫操作的service
 
 Singleton
 不管 Requset 多少次，都會是同一個實例。
+
 ->適合比較不容易改變的參數，比如網站的版本
