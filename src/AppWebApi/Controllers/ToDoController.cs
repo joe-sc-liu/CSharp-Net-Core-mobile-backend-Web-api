@@ -18,9 +18,10 @@ namespace AppWebApi.Controllers
     {
         private readonly static ILog logger = LogManager.GetLogger(typeof(Program));
 
+
+        //只要是透過 WebHost 產生實例的類別，都可以在建構子定義型態注入
+
         private readonly IToDo _IToDo;
-
-
         public ToDoController(IToDo iToDo)
         {
             _IToDo = iToDo;
