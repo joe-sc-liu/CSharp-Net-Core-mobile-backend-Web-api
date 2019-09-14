@@ -6,7 +6,9 @@ https://docs.microsoft.com/zh-tw/aspnet/core/mobile/native-mobile-backend?view=a
 使用.net core 2.2 c#，進行開發
 適用給行動端存取的RESTful Web Api
 
-#依賴注入 (Dependency Injection)參考網址，感謝John Wu無私教學
+#依賴注入 (Dependency Injection)
+
+參考網址，感謝John Wu無私教學
 https://ithelp.ithome.com.tw/articles/10193172
 
 Transient
